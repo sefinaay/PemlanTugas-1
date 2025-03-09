@@ -53,8 +53,8 @@ public class Mobil {
 
     //menghitung jarak 
     private void hitungJarak(){  //menggunakan private agar hanya dapat dipakai pada kelas Mobil
-        jarak = kecepatan * waktu;  //menghitung jarak dalam satuan meter
-        jarakdlmMeter = jarak * 1000;  //menghitung jarak dalam satuan kilo meter 
+        jarak = kecepatan * waktu;  //menghitung jarak dalam satuan kilo meter
+        jarakdlmMeter = jarak * 1000;  //menghitung jarak dalam satuan meter 
         System.out.println("Jarak = " + jarakdlmMeter + " m");  //menampilkan jarak dalam meter
 
     }
