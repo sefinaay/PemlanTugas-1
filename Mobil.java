@@ -63,11 +63,13 @@ public class Mobil {
 
     //menampilkan semua informasi mobil
     public void displayMessage(){
+        System.out.println();
         System.out.println("Mobil anda bermerek " + manufaktur);
         System.out.println("mempunyai nomor plat " + noPlat);
         System.out.println("serta memiliki warna " + warna);
         System.out.println("dengan jarak " + jarak + " km");
         System.out.println("dan mampu menempuh kecepatan " + kecepatan + " km/h");
+        System.out.println();
 }
 
 } 

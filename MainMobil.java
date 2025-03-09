@@ -38,7 +38,7 @@ public class MainMobil {
         //menyimpan data ke objek m1
         m1.displayMessage();
         //menampilkan data mobil
-        System.out.println("====================");
+        System.out.println("=========================");
         in.nextLine();
         //untuk baris baru setelah input 
 
@@ -61,7 +61,7 @@ public class MainMobil {
         System.out.print ("Waktu dalam jam : ");
         m2.setWaktu(in.nextDouble());
         m2.displayMessage();
-        System.out.println("====================");
+        System.out.println("=========================");
         in.nextLine();
 
         //merubah warna dari objek m1 menjadi warna hijau
